@@ -1,4 +1,4 @@
-# (c) Code-X-Mania 
+# (c) adarsh-goel 
 from Code_X_Mania.bot import StreamBot
 from Code_X_Mania.vars import Var
 import logging
@@ -35,7 +35,7 @@ async def follow_user(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Coded By [Adarsh Goel](https://github.com/code-x-mania)",
+                    text="I am Coded By [Adarsh Goel](https://github.com/adarsh-goel)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
@@ -60,7 +60,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("FOLLOW ME", url=f"https://GITHUB.COM/CODE-X-MANIA")
+                                InlineKeyboardButton("FOLLOW ME", url=f"https://GITHUB.COM/adarsh-goel")
                             ]
                         ]
                     ),
@@ -265,7 +265,7 @@ async def help_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/codexmania")],
-                [InlineKeyboardButton("💥 FOLLOW", url="https://GitHub.com/code-x-mania")]
+                [InlineKeyboardButton("💥 FOLLOW", url="https://GitHub.com/adarsh-goel")]
             ]
         )
     )

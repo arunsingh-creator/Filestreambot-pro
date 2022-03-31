@@ -1,5 +1,4 @@
-# (c) Jigarvarma2005 || Code-X-Mania
-#edit at your own risk
+#(c) Adarsh-Goel
 import os
 import asyncio
 from asyncio import TimeoutError
